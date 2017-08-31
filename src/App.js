@@ -5,6 +5,7 @@ import {
 } from 'react-router-dom';
 
 const App = () => (
+  //root router that listens to URL changes
   <BrowserRouter>
     <div className="container">
 
