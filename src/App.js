@@ -5,9 +5,11 @@ import {
 } from 'react-router-dom';
 
 const App = () => (
-  <div className="container">
+  <BrowserRouter>
+    <div className="container">
 
-  </div>
+    </div>
+  </BrowserRouter>
 );
 
 export default App;
