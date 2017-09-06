@@ -13,7 +13,7 @@ const App = () => (
   <BrowserRouter>
     <div className="container">
     //Render components via the route user defined component
-      <Route path="" component{}/>
+      <Route path="/" component{Home}/>
     </div>
   </BrowserRouter>
 );
