@@ -5,6 +5,7 @@ import {
 } from 'react-router-dom';
 
 // App components
+import Header from './Header';
 import Home from './Home';
 import About from './About';
 
