@@ -5,7 +5,7 @@ import {
 } from 'react-router-dom';
 
 // App components
-import Home from './Home'
+import Home from './Home';
 
 const App = () => (
   //root router that listens to URL changes
