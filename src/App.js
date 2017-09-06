@@ -6,6 +6,7 @@ import {
 
 // App components
 import Home from './Home';
+import About from './About';
 
 const App = () => (
   //root router that listens to URL changes
