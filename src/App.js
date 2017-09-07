@@ -8,6 +8,7 @@ import {
 import Header from './Header';
 import Home from './Home';
 import About from './About';
+import Teachers from './Teachers';
 
 const App = () => (
   //root router that listens to URL changes
