@@ -19,6 +19,7 @@ const App = () => (
     <Header />
       <Route exact path="/" component={Home} />
       <Route path="/about" component={About} />
+      <Route path="/teachers"  component={Teachers} />
     </div>
   </BrowserRouter>
 );
