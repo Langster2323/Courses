@@ -3,7 +3,8 @@ import {
   BrowserRouter,
   Route
 } from 'react-router-dom';
-
+//Route is responsible for rendering the UI or other components
+//BrowserRouter is responsible for the UI to be in sync with the URL
 // App components
 import Header from './Header';
 import Home from './Home';
