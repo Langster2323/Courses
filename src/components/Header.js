@@ -1,14 +1,14 @@
 import React from 'react';
-import { Link } 'react-router-dom';
+import { NavLink } 'react-router-dom';
 
 const Header = () => (
   <header>
     <span className="icn-logo"><i className="material-icons">code</i></span>
     <ul className="main-nav">
-      <li><Link to="/">Home</Link></li>
-      <li><Link to="/About">About</Link></li>
-      <li><Link to="/Teachers">Teachers</Link></li>
-      <li><Link to="/Courses">Courses</Link></li>
+      <li><NavLink to="/">Home</NavLink></li>
+      <li><NavLink to="/About">About</NavLink></li>
+      <li><NavLink to="/Teachers">Teachers</NavLink></li>
+      <li><NavLink to="/Courses">Courses</NavLink></li>
     </ul>
   </header>
 );
