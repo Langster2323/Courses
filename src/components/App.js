@@ -13,13 +13,10 @@ import Teachers from './Teachers';
 import Courses from './Courses';
 
 const App = () => (
-  //root router that listens to URL changes
   <BrowserRouter>
     <div className="container">
-    //React doesn't render any of the routing components to the DOM. They just manage what's being rendered
     <Header />
       <Route exact path="/" component={Home} />
-      //Using render props over component props is when I need to pass props to the component I'm rendering
       <Route path="/about" render={ () => <About title="About"/> } />
       <Route path="/teachers" component={Teachers} />
       <Route path="/courses" component={Courses} />
