@@ -19,7 +19,7 @@ const Courses = () => (
     {/* Write routes here... */}
     <Route path="/courses/html" component={HTML} />
     <Route path="/courses/css" component={CSS} />
-    Route path="/courses/javascript" component={JavaScript} />
+    <Route path="/courses/javascript" component={JavaScript} />
   </div>
 );
 
