@@ -6,9 +6,9 @@ const Courses = () => (
     <div className="course-header group">
       <h2>Courses</h2>
       <ul className="course-nav">
-        <li><NavLink='/courses/html'>HTML</NavLink></li>
-        <li><NavLink='/courses/css'>CSS</NavLink></li>
-        <li><NavLink='/courses/javascript'>JavaScript</NavLink></li>
+        <li><NavLink to='/courses/html'>HTML</NavLink></li>
+        <li><NavLink to='/courses/css'>CSS</NavLink></li>
+        <li><NavLink to='/courses/javascript'>JavaScript</NavLink></li>
       </ul>
     </div>
 
