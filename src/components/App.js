@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import {
   BrowserRouter,
-  Route
+  Route,
+  Switch
 } from 'react-router-dom';
 //Route is responsible for rendering the UI or other components
 //BrowserRouter is responsible for the UI to be in sync with the URL
@@ -17,10 +18,13 @@ const App = () => (
   <BrowserRouter>
     <div className="container">
     <Header />
+    <Switch>
       <Route exact path="/" component={Home} />
       <Route path="/about" render={ () => <About title="About"/> } />
       <Route path="/teachers" component={Teachers} />
       <Route path="/courses" component={Courses} />
+      <Route component={NotFound} />
+      </Switch>
     </div>
   </BrowserRouter>
 );
