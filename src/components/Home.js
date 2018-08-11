@@ -6,8 +6,9 @@ class Home extends Component {
 handleSubmit = (e) =>
  {
    e.preventDefault();
-   let teacherName;
-   let teacherTopic;
+   let teacherName = this.name.value;
+   let teacherTopic = this.topic.value;
+   let path = `teachers/${teacherTopic}/${teacherName}`
  }
   render() {
     return (
